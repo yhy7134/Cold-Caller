@@ -14,7 +14,7 @@ public class ColdCaller extends JFrame implements ActionListener {
 
    public ColdCaller() {
       setSize(200,150);
-      button = new JButton("Next Student");
+      button = new JButton("Next");
       button.setAlignmentX(Component.CENTER_ALIGNMENT);
       button.addActionListener(this);
       add(button);
