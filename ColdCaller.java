@@ -35,9 +35,6 @@ public class ColdCaller extends JFrame implements ActionListener {
       } catch (Exception e) {
          e.printStackTrace();
       }
-      for (String s : names) {
-         System.out.println(s);
-      }
       ColdCaller cc = new ColdCaller();
       cc.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       cc.names = names;
